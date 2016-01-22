@@ -9,12 +9,12 @@
 /* Begin PBXBuildFile section */
 		74B538501C4DFA2600AB9823 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 74B5384F1C4DFA2600AB9823 /* main.m */; };
 		74B538531C4DFA2600AB9823 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 74B538521C4DFA2600AB9823 /* AppDelegate.m */; };
-		74B538561C4DFA2600AB9823 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 74B538551C4DFA2600AB9823 /* ViewController.m */; };
-		74B538591C4DFA2600AB9823 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 74B538571C4DFA2600AB9823 /* Main.storyboard */; };
 		74B5385B1C4DFA2600AB9823 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 74B5385A1C4DFA2600AB9823 /* Assets.xcassets */; };
 		74B5385E1C4DFA2600AB9823 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 74B5385C1C4DFA2600AB9823 /* LaunchScreen.storyboard */; };
 		74B538691C4DFA2600AB9823 /* RibbitTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 74B538681C4DFA2600AB9823 /* RibbitTests.m */; };
 		74B538741C4DFA2600AB9823 /* RibbitUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 74B538731C4DFA2600AB9823 /* RibbitUITests.m */; };
+		74B538821C4DFAA600AB9823 /* MainStoryBoard.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 74B538811C4DFAA600AB9823 /* MainStoryBoard.storyboard */; };
+		74B538911C4E036500AB9823 /* InboxTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 74B538901C4E036500AB9823 /* InboxTableViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -39,9 +39,6 @@
 		74B5384F1C4DFA2600AB9823 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		74B538511C4DFA2600AB9823 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		74B538521C4DFA2600AB9823 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
-		74B538541C4DFA2600AB9823 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
-		74B538551C4DFA2600AB9823 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
-		74B538581C4DFA2600AB9823 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		74B5385A1C4DFA2600AB9823 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		74B5385D1C4DFA2600AB9823 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		74B5385F1C4DFA2600AB9823 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -51,6 +48,9 @@
 		74B5386F1C4DFA2600AB9823 /* RibbitUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = RibbitUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		74B538731C4DFA2600AB9823 /* RibbitUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = RibbitUITests.m; sourceTree = "<group>"; };
 		74B538751C4DFA2600AB9823 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		74B538811C4DFAA600AB9823 /* MainStoryBoard.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = MainStoryBoard.storyboard; sourceTree = "<group>"; };
+		74B5388F1C4E036500AB9823 /* InboxTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = InboxTableViewController.h; sourceTree = "<group>"; };
+		74B538901C4E036500AB9823 /* InboxTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = InboxTableViewController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -101,11 +101,9 @@
 		74B5384D1C4DFA2600AB9823 /* Ribbit */ = {
 			isa = PBXGroup;
 			children = (
-				74B538511C4DFA2600AB9823 /* AppDelegate.h */,
-				74B538521C4DFA2600AB9823 /* AppDelegate.m */,
-				74B538541C4DFA2600AB9823 /* ViewController.h */,
-				74B538551C4DFA2600AB9823 /* ViewController.m */,
-				74B538571C4DFA2600AB9823 /* Main.storyboard */,
+				74B5388F1C4E036500AB9823 /* InboxTableViewController.h */,
+				74B538901C4E036500AB9823 /* InboxTableViewController.m */,
+				74B538811C4DFAA600AB9823 /* MainStoryBoard.storyboard */,
 				74B5385A1C4DFA2600AB9823 /* Assets.xcassets */,
 				74B5385C1C4DFA2600AB9823 /* LaunchScreen.storyboard */,
 				74B5385F1C4DFA2600AB9823 /* Info.plist */,
@@ -117,6 +115,8 @@
 		74B5384E1C4DFA2600AB9823 /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
+				74B538511C4DFA2600AB9823 /* AppDelegate.h */,
+				74B538521C4DFA2600AB9823 /* AppDelegate.m */,
 				74B5384F1C4DFA2600AB9823 /* main.m */,
 			);
 			name = "Supporting Files";
@@ -243,9 +243,9 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				74B538821C4DFAA600AB9823 /* MainStoryBoard.storyboard in Resources */,
 				74B5385E1C4DFA2600AB9823 /* LaunchScreen.storyboard in Resources */,
 				74B5385B1C4DFA2600AB9823 /* Assets.xcassets in Resources */,
-				74B538591C4DFA2600AB9823 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -270,7 +270,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				74B538561C4DFA2600AB9823 /* ViewController.m in Sources */,
+				74B538911C4E036500AB9823 /* InboxTableViewController.m in Sources */,
 				74B538531C4DFA2600AB9823 /* AppDelegate.m in Sources */,
 				74B538501C4DFA2600AB9823 /* main.m in Sources */,
 			);
@@ -308,14 +308,6 @@
 /* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
-		74B538571C4DFA2600AB9823 /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				74B538581C4DFA2600AB9823 /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
 		74B5385C1C4DFA2600AB9823 /* LaunchScreen.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
