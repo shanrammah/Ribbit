@@ -15,6 +15,23 @@
 		74B538741C4DFA2600AB9823 /* RibbitUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 74B538731C4DFA2600AB9823 /* RibbitUITests.m */; };
 		74B538821C4DFAA600AB9823 /* MainStoryBoard.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 74B538811C4DFAA600AB9823 /* MainStoryBoard.storyboard */; };
 		74B538911C4E036500AB9823 /* InboxTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 74B538901C4E036500AB9823 /* InboxTableViewController.m */; };
+		74B538991C52046600AB9823 /* Bolts.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 74B538931C52046600AB9823 /* Bolts.framework */; };
+		74B5389A1C52046600AB9823 /* Parse.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 74B538941C52046600AB9823 /* Parse.framework */; };
+		74B5389B1C52046600AB9823 /* ParseFacebookUtils.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 74B538951C52046600AB9823 /* ParseFacebookUtils.framework */; };
+		74B5389C1C52046600AB9823 /* ParseFacebookUtilsV4.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 74B538961C52046600AB9823 /* ParseFacebookUtilsV4.framework */; };
+		74B5389D1C52046600AB9823 /* ParseTwitterUtils.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 74B538971C52046600AB9823 /* ParseTwitterUtils.framework */; };
+		74B5389E1C52046600AB9823 /* ParseUI.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 74B538981C52046600AB9823 /* ParseUI.framework */; };
+		74B538AF1C52059300AB9823 /* AudioToolbox.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 74B538AB1C52059300AB9823 /* AudioToolbox.framework */; };
+		74B538B01C52059300AB9823 /* CFNetwork.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 74B538AC1C52059300AB9823 /* CFNetwork.framework */; };
+		74B538B11C52059300AB9823 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 74B538AD1C52059300AB9823 /* CoreGraphics.framework */; };
+		74B538B21C52059300AB9823 /* CoreLocation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 74B538AE1C52059300AB9823 /* CoreLocation.framework */; };
+		74B538B61C5205E300AB9823 /* Security.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 74B538B31C5205E300AB9823 /* Security.framework */; };
+		74B538B71C5205E300AB9823 /* StoreKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 74B538B41C5205E300AB9823 /* StoreKit.framework */; };
+		74B538B81C5205E300AB9823 /* SystemConfiguration.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 74B538B51C5205E300AB9823 /* SystemConfiguration.framework */; };
+		74B538BB1C52061300AB9823 /* libsqlite3.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = 74B538B91C52061300AB9823 /* libsqlite3.tbd */; };
+		74B538BC1C52061300AB9823 /* libz.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = 74B538BA1C52061300AB9823 /* libz.tbd */; };
+		74B538BF1C52084F00AB9823 /* LoginViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 74B538BE1C52084F00AB9823 /* LoginViewController.m */; };
+		74B538C21C52086300AB9823 /* SignupViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 74B538C11C52086300AB9823 /* SignupViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -51,6 +68,25 @@
 		74B538811C4DFAA600AB9823 /* MainStoryBoard.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = MainStoryBoard.storyboard; sourceTree = "<group>"; };
 		74B5388F1C4E036500AB9823 /* InboxTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = InboxTableViewController.h; sourceTree = "<group>"; };
 		74B538901C4E036500AB9823 /* InboxTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = InboxTableViewController.m; sourceTree = "<group>"; };
+		74B538931C52046600AB9823 /* Bolts.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = Bolts.framework; sourceTree = "<group>"; };
+		74B538941C52046600AB9823 /* Parse.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = Parse.framework; sourceTree = "<group>"; };
+		74B538951C52046600AB9823 /* ParseFacebookUtils.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = ParseFacebookUtils.framework; sourceTree = "<group>"; };
+		74B538961C52046600AB9823 /* ParseFacebookUtilsV4.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = ParseFacebookUtilsV4.framework; sourceTree = "<group>"; };
+		74B538971C52046600AB9823 /* ParseTwitterUtils.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = ParseTwitterUtils.framework; sourceTree = "<group>"; };
+		74B538981C52046600AB9823 /* ParseUI.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = ParseUI.framework; sourceTree = "<group>"; };
+		74B538AB1C52059300AB9823 /* AudioToolbox.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AudioToolbox.framework; path = System/Library/Frameworks/AudioToolbox.framework; sourceTree = SDKROOT; };
+		74B538AC1C52059300AB9823 /* CFNetwork.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CFNetwork.framework; path = System/Library/Frameworks/CFNetwork.framework; sourceTree = SDKROOT; };
+		74B538AD1C52059300AB9823 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		74B538AE1C52059300AB9823 /* CoreLocation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreLocation.framework; path = System/Library/Frameworks/CoreLocation.framework; sourceTree = SDKROOT; };
+		74B538B31C5205E300AB9823 /* Security.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Security.framework; path = System/Library/Frameworks/Security.framework; sourceTree = SDKROOT; };
+		74B538B41C5205E300AB9823 /* StoreKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = StoreKit.framework; path = System/Library/Frameworks/StoreKit.framework; sourceTree = SDKROOT; };
+		74B538B51C5205E300AB9823 /* SystemConfiguration.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SystemConfiguration.framework; path = System/Library/Frameworks/SystemConfiguration.framework; sourceTree = SDKROOT; };
+		74B538B91C52061300AB9823 /* libsqlite3.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = libsqlite3.tbd; path = usr/lib/libsqlite3.tbd; sourceTree = SDKROOT; };
+		74B538BA1C52061300AB9823 /* libz.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = libz.tbd; path = usr/lib/libz.tbd; sourceTree = SDKROOT; };
+		74B538BD1C52084F00AB9823 /* LoginViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LoginViewController.h; sourceTree = "<group>"; };
+		74B538BE1C52084F00AB9823 /* LoginViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LoginViewController.m; sourceTree = "<group>"; };
+		74B538C01C52086300AB9823 /* SignupViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SignupViewController.h; sourceTree = "<group>"; };
+		74B538C11C52086300AB9823 /* SignupViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SignupViewController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,6 +94,21 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				74B538BB1C52061300AB9823 /* libsqlite3.tbd in Frameworks */,
+				74B538BC1C52061300AB9823 /* libz.tbd in Frameworks */,
+				74B538B61C5205E300AB9823 /* Security.framework in Frameworks */,
+				74B538B71C5205E300AB9823 /* StoreKit.framework in Frameworks */,
+				74B538B81C5205E300AB9823 /* SystemConfiguration.framework in Frameworks */,
+				74B538AF1C52059300AB9823 /* AudioToolbox.framework in Frameworks */,
+				74B538B01C52059300AB9823 /* CFNetwork.framework in Frameworks */,
+				74B538B11C52059300AB9823 /* CoreGraphics.framework in Frameworks */,
+				74B538B21C52059300AB9823 /* CoreLocation.framework in Frameworks */,
+				74B5389E1C52046600AB9823 /* ParseUI.framework in Frameworks */,
+				74B5389A1C52046600AB9823 /* Parse.framework in Frameworks */,
+				74B538991C52046600AB9823 /* Bolts.framework in Frameworks */,
+				74B5389C1C52046600AB9823 /* ParseFacebookUtilsV4.framework in Frameworks */,
+				74B5389B1C52046600AB9823 /* ParseFacebookUtils.framework in Frameworks */,
+				74B5389D1C52046600AB9823 /* ParseTwitterUtils.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -82,6 +133,7 @@
 			isa = PBXGroup;
 			children = (
 				74B5384D1C4DFA2600AB9823 /* Ribbit */,
+				74B538921C52042D00AB9823 /* Frameworks */,
 				74B538671C4DFA2600AB9823 /* RibbitTests */,
 				74B538721C4DFA2600AB9823 /* RibbitUITests */,
 				74B5384C1C4DFA2600AB9823 /* Products */,
@@ -103,6 +155,10 @@
 			children = (
 				74B5388F1C4E036500AB9823 /* InboxTableViewController.h */,
 				74B538901C4E036500AB9823 /* InboxTableViewController.m */,
+				74B538BD1C52084F00AB9823 /* LoginViewController.h */,
+				74B538BE1C52084F00AB9823 /* LoginViewController.m */,
+				74B538C01C52086300AB9823 /* SignupViewController.h */,
+				74B538C11C52086300AB9823 /* SignupViewController.m */,
 				74B538811C4DFAA600AB9823 /* MainStoryBoard.storyboard */,
 				74B5385A1C4DFA2600AB9823 /* Assets.xcassets */,
 				74B5385C1C4DFA2600AB9823 /* LaunchScreen.storyboard */,
@@ -138,6 +194,28 @@
 				74B538751C4DFA2600AB9823 /* Info.plist */,
 			);
 			path = RibbitUITests;
+			sourceTree = "<group>";
+		};
+		74B538921C52042D00AB9823 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				74B538B91C52061300AB9823 /* libsqlite3.tbd */,
+				74B538BA1C52061300AB9823 /* libz.tbd */,
+				74B538AB1C52059300AB9823 /* AudioToolbox.framework */,
+				74B538AC1C52059300AB9823 /* CFNetwork.framework */,
+				74B538AD1C52059300AB9823 /* CoreGraphics.framework */,
+				74B538AE1C52059300AB9823 /* CoreLocation.framework */,
+				74B538B31C5205E300AB9823 /* Security.framework */,
+				74B538B41C5205E300AB9823 /* StoreKit.framework */,
+				74B538B51C5205E300AB9823 /* SystemConfiguration.framework */,
+				74B538931C52046600AB9823 /* Bolts.framework */,
+				74B538941C52046600AB9823 /* Parse.framework */,
+				74B538951C52046600AB9823 /* ParseFacebookUtils.framework */,
+				74B538961C52046600AB9823 /* ParseFacebookUtilsV4.framework */,
+				74B538971C52046600AB9823 /* ParseTwitterUtils.framework */,
+				74B538981C52046600AB9823 /* ParseUI.framework */,
+			);
+			name = Frameworks;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -270,9 +348,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				74B538BF1C52084F00AB9823 /* LoginViewController.m in Sources */,
 				74B538911C4E036500AB9823 /* InboxTableViewController.m in Sources */,
 				74B538531C4DFA2600AB9823 /* AppDelegate.m in Sources */,
 				74B538501C4DFA2600AB9823 /* main.m in Sources */,
+				74B538C21C52086300AB9823 /* SignupViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -403,6 +483,10 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)",
+				);
 				INFOPLIST_FILE = Ribbit/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.shanrammah.Ribbit;
@@ -414,6 +498,10 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)",
+				);
 				INFOPLIST_FILE = Ribbit/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.shanrammah.Ribbit;

@@ -6,6 +6,7 @@
 //  Copyright © 2016 Shan Rammah. All rights reserved.
 //
 
+#import <Parse/Parse.h>
 #import "InboxTableViewController.h"
 
 @interface InboxTableViewController ()
@@ -17,7 +18,16 @@
 - (void)viewDidLoad {
     [super viewDidLoad];
     
-    [self performSegueWithIdentifier:@"showLogin" sender:self];
+    
+    PFUser *currentUser = [PFUser currentUser];
+    if (currentUser) {
+        NSLog(@"Current user: %@", currentUser.username);
+    } else {
+        [self performSegueWithIdentifier:@"showLogin" sender:self];
+    }
+    
+    
+
     
     
 }
@@ -39,4 +49,16 @@
     return 0;
 }
 
+- (IBAction)LogOut:(id)sender {
+    
+    [PFUser logOut];
+    [self performSegueWithIdentifier:@"showLogin" sender:self];
+
+}
+
+- (void)prepareForSegue:(UIStoryboardSegue *)segue sender:(id)sender {
+    if ([segue.identifier isEqualToString:@"showLogin"]) {
+        [segue.destinationViewController setHidesBottomBarWhenPushed:YES]; 
+    }
+}
 @end

@@ -6,6 +6,8 @@
 //  Copyright © 2016 Shan Rammah. All rights reserved.
 //
 
+#import <Parse/Parse.h>
+
 #import "AppDelegate.h"
 
 @interface AppDelegate ()
@@ -17,7 +19,19 @@
 
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions {
     
-
+    // [Optional] Power your app with Local Datastore. For more info, go to
+    // https://parse.com/docs/ios/guide#local-datastore
+    [Parse enableLocalDatastore];
+    
+    // Initialize Parse.
+    [Parse setApplicationId:@"Is7sDFux0wFvHRAhBBWYmApJB355x3iTeTSFXcXP"
+                  clientKey:@"GULC6WEHHr54ISax6qTpOSDSqbIf4sl3AwZMFjbm"];
+    
+    // [Optional] Track statistics around application opens.
+    [PFAnalytics trackAppOpenedWithLaunchOptions:launchOptions];
+    
+    // ...
+    
     return YES;
     
 }

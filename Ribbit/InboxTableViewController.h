@@ -10,4 +10,7 @@
 
 @interface InboxTableViewController : UITableViewController
 
+- (IBAction)LogOut:(id)sender;
+
+
 @end
