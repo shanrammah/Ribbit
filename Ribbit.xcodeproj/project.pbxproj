@@ -32,6 +32,8 @@
 		74B538BC1C52061300AB9823 /* libz.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = 74B538BA1C52061300AB9823 /* libz.tbd */; };
 		74B538BF1C52084F00AB9823 /* LoginViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 74B538BE1C52084F00AB9823 /* LoginViewController.m */; };
 		74B538C21C52086300AB9823 /* SignupViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 74B538C11C52086300AB9823 /* SignupViewController.m */; };
+		74B538C51C55892E00AB9823 /* EditFriendsTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 74B538C41C55892E00AB9823 /* EditFriendsTableViewController.m */; };
+		74B538CB1C5591BC00AB9823 /* FriendsTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 74B538CA1C5591BC00AB9823 /* FriendsTableViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -87,6 +89,10 @@
 		74B538BE1C52084F00AB9823 /* LoginViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LoginViewController.m; sourceTree = "<group>"; };
 		74B538C01C52086300AB9823 /* SignupViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SignupViewController.h; sourceTree = "<group>"; };
 		74B538C11C52086300AB9823 /* SignupViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SignupViewController.m; sourceTree = "<group>"; };
+		74B538C31C55892E00AB9823 /* EditFriendsTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = EditFriendsTableViewController.h; sourceTree = "<group>"; };
+		74B538C41C55892E00AB9823 /* EditFriendsTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = EditFriendsTableViewController.m; sourceTree = "<group>"; };
+		74B538C91C5591BC00AB9823 /* FriendsTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FriendsTableViewController.h; sourceTree = "<group>"; };
+		74B538CA1C5591BC00AB9823 /* FriendsTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FriendsTableViewController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -159,6 +165,10 @@
 				74B538BE1C52084F00AB9823 /* LoginViewController.m */,
 				74B538C01C52086300AB9823 /* SignupViewController.h */,
 				74B538C11C52086300AB9823 /* SignupViewController.m */,
+				74B538C91C5591BC00AB9823 /* FriendsTableViewController.h */,
+				74B538CA1C5591BC00AB9823 /* FriendsTableViewController.m */,
+				74B538C31C55892E00AB9823 /* EditFriendsTableViewController.h */,
+				74B538C41C55892E00AB9823 /* EditFriendsTableViewController.m */,
 				74B538811C4DFAA600AB9823 /* MainStoryBoard.storyboard */,
 				74B5385A1C4DFA2600AB9823 /* Assets.xcassets */,
 				74B5385C1C4DFA2600AB9823 /* LaunchScreen.storyboard */,
@@ -350,8 +360,10 @@
 			files = (
 				74B538BF1C52084F00AB9823 /* LoginViewController.m in Sources */,
 				74B538911C4E036500AB9823 /* InboxTableViewController.m in Sources */,
+				74B538C51C55892E00AB9823 /* EditFriendsTableViewController.m in Sources */,
 				74B538531C4DFA2600AB9823 /* AppDelegate.m in Sources */,
 				74B538501C4DFA2600AB9823 /* main.m in Sources */,
+				74B538CB1C5591BC00AB9823 /* FriendsTableViewController.m in Sources */,
 				74B538C21C52086300AB9823 /* SignupViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
