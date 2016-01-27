@@ -17,8 +17,8 @@
                     </tabBar>
                     <connections>
                         <segue destination="pFs-zI-bqc" kind="relationship" relationship="viewControllers" id="lxq-6S-eSg"/>
-                        <segue destination="JkP-Ae-NVN" kind="relationship" relationship="viewControllers" id="aB7-C7-Dbg"/>
                         <segue destination="9a8-nV-UEv" kind="relationship" relationship="viewControllers" id="Z7d-GF-hO6"/>
+                        <segue destination="JkP-Ae-NVN" kind="relationship" relationship="viewControllers" id="aB7-C7-Dbg"/>
                     </connections>
                 </tabBarController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="cK4-lb-D7C" userLabel="First Responder" sceneMemberID="firstResponder"/>
@@ -155,16 +155,16 @@
             </objects>
             <point key="canvasLocation" x="1262" y="367"/>
         </scene>
-        <!--Table View Controller-->
+        <!--Recipients-->
         <scene sceneID="yEK-sx-1If">
             <objects>
-                <tableViewController id="Bzh-NU-H88" sceneMemberID="viewController">
+                <tableViewController id="Bzh-NU-H88" customClass="CameraTableViewController" sceneMemberID="viewController">
                     <tableView key="view" clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="prototypes" style="plain" separatorStyle="default" rowHeight="44" sectionHeaderHeight="28" sectionFooterHeight="28" id="Kha-um-ku1">
                         <rect key="frame" x="0.0" y="0.0" width="414" height="736"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                         <prototypes>
-                            <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" selectionStyle="default" indentationWidth="10" id="FWG-Co-U2i">
+                            <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" selectionStyle="default" indentationWidth="10" reuseIdentifier="Cell" id="FWG-Co-U2i">
                                 <rect key="frame" x="0.0" y="92" width="414" height="44"/>
                                 <autoresizingMask key="autoresizingMask"/>
                                 <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="FWG-Co-U2i" id="cZO-LJ-edZ">
@@ -178,7 +178,18 @@
                             <outlet property="delegate" destination="Bzh-NU-H88" id="1jQ-J5-L1v"/>
                         </connections>
                     </tableView>
-                    <navigationItem key="navigationItem" id="nw5-4P-nFe"/>
+                    <navigationItem key="navigationItem" title="Recipients" id="nw5-4P-nFe">
+                        <barButtonItem key="leftBarButtonItem" title="Cancel" id="kX1-ev-KD1">
+                            <connections>
+                                <action selector="cancel:" destination="Bzh-NU-H88" id="8IA-en-ZAk"/>
+                            </connections>
+                        </barButtonItem>
+                        <barButtonItem key="rightBarButtonItem" title="Send" id="5pz-1n-K9s">
+                            <connections>
+                                <action selector="send:" destination="Bzh-NU-H88" id="gDP-h7-TZ4"/>
+                            </connections>
+                        </barButtonItem>
+                    </navigationItem>
                     <simulatedScreenMetrics key="simulatedDestinationMetrics" type="retina55"/>
                 </tableViewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="vl2-hj-asY" userLabel="First Responder" sceneMemberID="firstResponder"/>

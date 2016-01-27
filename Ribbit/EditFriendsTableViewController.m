@@ -39,6 +39,8 @@
 
 
 
+
+
 #pragma mark - Table view data source
 
 - (NSInteger)numberOfSectionsInTableView:(UITableView *)tableView {
@@ -71,10 +73,11 @@
 
 #pragma mark - Table View delegate
 
-- (void)tableView:(UITableView *)tableView didDeselectRowAtIndexPath:(NSIndexPath *)indexPath
+- (void)tableView:(UITableView *)tableView didSelectRowAtIndexPath:(NSIndexPath *)indexPath
 {
     
-    [self.tableView deselectRowAtIndexPath:indexPath animated:NO]; //deselcts the row once we tap it
+    [self.tableView deselectRowAtIndexPath:indexPath animated:NO];
+    
     
     UITableViewCell *cell = [tableView cellForRowAtIndexPath:indexPath];
     PFUser *user = [self.allUsers objectAtIndex:indexPath.row];
@@ -113,6 +116,8 @@
     }
         
     }];
+    
+   
     
 }
 

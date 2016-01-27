@@ -13,6 +13,8 @@
 
 @property (nonatomic, strong) PFRelation *friendsRelation;
 
-@property (nonatomic, strong) NSArray *friends; 
+@property (nonatomic, strong) NSArray *friends;
+
+
 
 @end

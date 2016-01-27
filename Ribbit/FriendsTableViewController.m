@@ -20,6 +20,13 @@
     
     self.friendsRelation = [[PFUser currentUser] objectForKey:@"friendsRelation"];
     
+
+}
+
+- (void)viewWillAppear:(BOOL)animated
+{
+    [super viewWillAppear:YES];
+    
     PFQuery *query = [self.friendsRelation query];
     [query orderByAscending:@"username"];
     [query findObjectsInBackgroundWithBlock:^(NSArray * _Nullable objects, NSError * _Nullable error) {
@@ -34,6 +41,7 @@
         
         
     }];
+    
 }
 
 

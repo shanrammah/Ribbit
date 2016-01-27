@@ -34,6 +34,7 @@
 		74B538C21C52086300AB9823 /* SignupViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 74B538C11C52086300AB9823 /* SignupViewController.m */; };
 		74B538C51C55892E00AB9823 /* EditFriendsTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 74B538C41C55892E00AB9823 /* EditFriendsTableViewController.m */; };
 		74B538CB1C5591BC00AB9823 /* FriendsTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 74B538CA1C5591BC00AB9823 /* FriendsTableViewController.m */; };
+		74B538CE1C572C4D00AB9823 /* CameraTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 74B538CD1C572C4D00AB9823 /* CameraTableViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -93,6 +94,8 @@
 		74B538C41C55892E00AB9823 /* EditFriendsTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = EditFriendsTableViewController.m; sourceTree = "<group>"; };
 		74B538C91C5591BC00AB9823 /* FriendsTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FriendsTableViewController.h; sourceTree = "<group>"; };
 		74B538CA1C5591BC00AB9823 /* FriendsTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FriendsTableViewController.m; sourceTree = "<group>"; };
+		74B538CC1C572C4D00AB9823 /* CameraTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CameraTableViewController.h; sourceTree = "<group>"; };
+		74B538CD1C572C4D00AB9823 /* CameraTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CameraTableViewController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -169,6 +172,8 @@
 				74B538CA1C5591BC00AB9823 /* FriendsTableViewController.m */,
 				74B538C31C55892E00AB9823 /* EditFriendsTableViewController.h */,
 				74B538C41C55892E00AB9823 /* EditFriendsTableViewController.m */,
+				74B538CC1C572C4D00AB9823 /* CameraTableViewController.h */,
+				74B538CD1C572C4D00AB9823 /* CameraTableViewController.m */,
 				74B538811C4DFAA600AB9823 /* MainStoryBoard.storyboard */,
 				74B5385A1C4DFA2600AB9823 /* Assets.xcassets */,
 				74B5385C1C4DFA2600AB9823 /* LaunchScreen.storyboard */,
@@ -364,6 +369,7 @@
 				74B538531C4DFA2600AB9823 /* AppDelegate.m in Sources */,
 				74B538501C4DFA2600AB9823 /* main.m in Sources */,
 				74B538CB1C5591BC00AB9823 /* FriendsTableViewController.m in Sources */,
+				74B538CE1C572C4D00AB9823 /* CameraTableViewController.m in Sources */,
 				74B538C21C52086300AB9823 /* SignupViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
